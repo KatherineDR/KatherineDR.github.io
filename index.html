@@ -9,23 +9,19 @@
 </head>
 <body>
   
-
   <script>
 window.onscroll = function() { 
   var header = document.querySelector('.header');
-  var row = document.querySelector('.row');
-  var headerHeight = header.offsetHeight;
-  var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+  var sticky = header.offsetTop + header.offsetHeight;
 
-  if (scrollPosition > headerHeight) {
-    header.style.position = 'static';
-    row.style.paddingTop = 0;
+  if (window.pageYOffset > sticky) {
+    header.style.position = 'static'; /* Or 'relative' */
   } else {
     header.style.position = 'fixed';
-    row.style.paddingTop = (headerHeight - scrollPosition) + 'px';
   }
 };
 </script>
+
 
   
 <div class="header">
