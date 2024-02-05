@@ -14,7 +14,8 @@ body {
   height: 100vh; 
     background-size: cover; 
     background-repeat: no-repeat; 
-  position: sticky
+  position: sticky;
+  position: -webkit-sticky;
 }
 
 /* Increase the font size of the heading */
