@@ -15,7 +15,7 @@ window.onscroll = function() {
   var sticky = header.offsetTop + header.offsetHeight;
 
   if (window.pageYOffset > sticky) {
-    header.style.position = 'static'; /* Or 'relative' */
+    header.style.position = 'relative'; /* Or 'relative' */
   } else {
     header.style.position = 'fixed';
   }
