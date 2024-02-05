@@ -66,6 +66,12 @@ window.onscroll = function() {
 <div class="footer">
   <h2>Footer</h2>
 </div>
-
+<script>
+window.onload = function() {
+  var headerHeight = document.querySelector('.header').offsetHeight;
+  var row = document.querySelector('.row');
+  row.style.paddingTop = headerHeight + 'px';
+};
+</script>
 </body>
 </html>
