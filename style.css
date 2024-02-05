@@ -10,7 +10,8 @@ body {
   text-align: center;
   color: white;
   background-image: url('stars.gif'); 
-    height: 500px; 
+    width: auto;  
+  height: 100vh; 
     background-size: cover; 
     background-repeat: no-repeat; 
 }
