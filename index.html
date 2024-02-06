@@ -9,19 +9,6 @@
 </head>
 <body>
   
-  <script>
-window.onscroll = function() { 
-  var header = document.querySelector('.header');
-  var sticky = header.offsetTop + header.offsetHeight;
-
-  if (window.pageYOffset > sticky) {
-    header.style.position = 'relative'; /* Or 'relative' */
-  } else {
-    header.style.position = 'fixed';
-  }
-};
-</script>
-
   <div class="header">
     <h1>Welcome to Katherine Denney's Tech Center</h1>
   <p>This is the website that I built (from scratch) to play with the newest tech and show off some skills.<br> There are many reasons why people visit my site. Click a link below.
@@ -67,12 +54,6 @@ window.onscroll = function() {
 <div class="footer">
   <h2>Footer</h2>
 </div>
-<script>
-window.onload = function() {
-  var headerHeight = document.querySelector('.header').offsetHeight;
-  var row = document.querySelector('.row');
-  row.style.paddingTop = headerHeight + 'px';
-};
-</script>
+
 </body>
 </html>
