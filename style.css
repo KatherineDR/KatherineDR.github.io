@@ -19,6 +19,9 @@ body {
   width: 100%; /* Ensure it spans the full width */
   z-index: 999; /* Keep it above other content */
 }
+.row {
+  height: 0vh
+}
 
 /* Increase the font size of the heading */
 .header h1 {
