@@ -17,10 +17,12 @@ body {
   position: fixed; /* Changed from sticky to fixed */
   top: 0;
   width: 100%; /* Ensure it spans the full width */
-  z-index: 999; /* Keep it above other content */
+  z-index: -1; /* Keep it above other content */
 }
 .row {
-  height: 0vh
+  position:relative;
+  margin-top: 100vh;
+  z-index:1;
 }
 
 /* Increase the font size of the heading */
