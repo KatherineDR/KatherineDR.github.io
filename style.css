@@ -201,16 +201,15 @@ body {
 /* Footer */
 .footer {
   padding: 20px;
+  postition:relative;
+  height: 100px;
   text-align: center;
   background: #ddd;
 }
 .githubicon {
-  padding: 20px;
-  text-align: center;
-  color: white;
-  background-image: url('githubicon.gif'); 
-  width: 20px;  
-  height: 20px; 
+  position: absolute;
+  top: 10px;
+  right: 10px;
     }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
