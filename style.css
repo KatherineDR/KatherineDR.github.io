@@ -199,22 +199,20 @@ body {
 }
 
 /* Footer */
-.footer {
-  padding: 20px;
-  postition:relative;
-  height: 100px;
-  text-align: center;
-  background: #ddd;
-}
-.githubicon {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  height:200px;
-  width: 200px;
-  background-image: url('brain.gif');
-      }
+    .i{
+        margin: 50px;
+    }
 
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: red;
+        color: white;
+        text-align: center;
+        float: left;
+    }
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
   .row {   
