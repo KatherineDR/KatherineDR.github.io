@@ -204,28 +204,38 @@ body {
 }
 
 .footer {
-  /*position: fixed;*/
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #00FFFF;
-  color: white;
-  text-align: center;
-  float: left;
+ background-color: #00ffff;
+ display: flex;
+ align-items: center;
+  
 }
 
+.footer-group{
+ margin: 5px; 
+ display: flex;
+ align-items: center;
+ margin-inline: auto;
+}
 .footer--icon1 {
-  /*display: flex;*/
-  align-items: flex-center;
+  align-content: center;
   justify-content: center;
+  display: flex;
+  margin: auto;
+  height: 50px;
+  width: 50px;
+  /*background-image: url('githubicon.png')*/
+}
+.footer--icon2 {
+  display: flex;
+  margin:auto;
+  position:static;
+  align-content: center;
+  justify-content: center;
+
   height: 50px;
   /*background-image: url('githubicon.png')*/
 }
 
-.footer--icon1 > img {
-  margin: 5px;
-  height: 50px;
-}
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
   .row {   
@@ -240,4 +250,3 @@ body {
     width: 100%;
   }
 }
-
