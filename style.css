@@ -219,7 +219,7 @@ body {
   align-items: flex-center;
   justify-content: center;
   height: 50px;
-  background-image: url('githubicon.png')
+  /*background-image: url('githubicon.png')*/
 }
 
 /*.footer--icons > img {
