@@ -89,7 +89,7 @@ body {
 }
 
 /*Button Hyperlink*/
-.button1 a:link{
+.button1 a{
   color:black;
   font-weight:bold;
   text-decoration:none;
